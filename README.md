@@ -6,15 +6,15 @@ This repo contains a script for checking CPU and GPU temperatures on the Raspber
 
 1. Download the script
     ```bash
-	curl -O https://raw.githubusercontent.com/gavinbarrett/HotRasPi/master/hotraspi
+	curl -O https://raw.githubusercontent.com/gavinbarrett/HotPi/master/hotpi
 	```
 2. Add execute permissions
 	```bash
-    sudo chmod +x ./hotraspi
+    sudo chmod +x ./hotpi
 	```
 3. Place the script somewhere in your $PATH
 	```bash
-    mv ./hotraspi ~/.local/bin/
+    mv ./hotpi ~/.local/bin/
 	```
 4. Add user to the `video` group
 	```bash
@@ -22,6 +22,6 @@ This repo contains a script for checking CPU and GPU temperatures on the Raspber
 	```
 
 ## Usage
-	$ hotraspi
+	$ hotpi
     CPU Temperature  =>  46'C
     GPU Temperature  =>  44'C
